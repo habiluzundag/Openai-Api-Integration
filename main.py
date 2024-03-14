@@ -1,6 +1,6 @@
 import openai
 # API anahtarınızı buraya ekleyin
-api_key = 'your_api'
+api_key = open("api_key.txt", "r").read()
 
 # OpenAI API'sine bağlan
 openai.api_key = api_key
